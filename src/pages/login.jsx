@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { BrowserRouter, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
 function Login(props){
     // login credentials
@@ -24,7 +24,7 @@ function Login(props){
                         
                     }
                 })
-            if (userNotFound == false){
+            if (userNotFound === false){
                 console.log("Login Failed")
                 setexistuser(false)
             }

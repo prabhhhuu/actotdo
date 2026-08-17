@@ -1,4 +1,3 @@
-import Login from "../pages/login"
 import { useLocation } from "react-router-dom"
 function Header(){
 

@@ -9,7 +9,7 @@ function TodoItem(props){
     function handleDelete(removeid){
         console.log(removeid)
         const leftItems = activityArr.filter(function(item) {
-            if (item.id == removeid){
+            if (item.id === removeid){
                 return false
             }
             else {
