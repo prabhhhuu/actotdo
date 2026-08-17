@@ -1,6 +1,3 @@
-import Header from "./component/header";
-import Card from "./component/card";
-import TodoContainer from "./component/todoContainer";
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
 import Landing from "./pages/Landing";
 import Login from "./pages/login";
